@@ -1,0 +1,173 @@
+<div class="bg-purple-600 min-h-screen p-6">
+  <!-- Title Section -->
+  <h1 class="text-center text-white text-3xl font-bold mb-6">
+    {{ selectedCity }}
+  </h1>
+
+  <!-- Tabs Section -->
+  <mat-tab-group class="bg-white rounded-md shadow-md">
+    <!-- Hotels Tab -->
+    <mat-tab label="Hotels">
+      <div class="p-6">
+        <ng-container
+          *ngIf="filteredListings['Hotels'].length > 0; else noData"
+        >
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <mat-card
+              *ngFor="let hotel of filteredListings['Hotels']"
+              class="bg-white rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300"
+              [routerLink]="[
+                '/cities',
+                selectedCity,
+                'Hotels',
+                hotel.listingId
+              ]"
+            >
+              <!-- Image Section -->
+              <div class="flex-shrink-0 w-full h-100">
+                <img
+                  [src]="hotel.image"
+                  [alt]="hotel.name"
+                  class="w-full h-48 object-cover rounded-t-lg"
+                />
+              </div>
+              <!-- Content Section -->
+              <mat-card-content
+                class="flex flex-col justify-center flex-grow px-4"
+              >
+                <h2 class="text-lg font-bold text-purple-700">
+                  {{ hotel.name }}
+                </h2>
+                <p class="text-sm text-gray-600 mt-2">
+                  {{ hotel.description }}
+                </p>
+              </mat-card-content>
+              <div class="flex items-center justify-between mt-4">
+                <div class="flex items-center space-x-1 px-3">
+                  <ng-container *ngFor="let star of getStars(hotel.rating)">
+                    <mat-icon class="text-yellow-500">star</mat-icon>
+                  </ng-container>
+                </div>
+                <p class="text-lg font-bold text-purple-700 p-2">
+                  Rs. {{ hotel.priceRange }}
+                </p>
+              </div>
+            </mat-card>
+          </div>
+        </ng-container>
+        <ng-template #noData>
+          <p class="text-center text-gray-700">No hotels available yet.</p>
+        </ng-template>
+      </div>
+    </mat-tab>
+
+    <!-- Restaurants Tab -->
+    <mat-tab label="Restaurant">
+      <div class="p-6">
+        <ng-container
+          *ngIf="filteredListings['Restaurant'].length > 0; else noData"
+        >
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <mat-card
+              *ngFor="let restaurant of filteredListings['Restaurant']"
+              class="bg-white rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300"
+              [routerLink]="[
+                '/cities',
+                selectedCity,
+                'Restaurants',
+                restaurant.name
+              ]"
+            >
+              <!-- Image Section -->
+              <div class="flex-shrink-0 w-full h-100">
+                <img
+                  [src]="restaurant.image"
+                  [alt]="restaurant.name"
+                  class="w-full h-48 object-cover rounded-t-lg"
+                />
+              </div>
+              <!-- Content Section -->
+              <mat-card-content
+                class="flex flex-col justify-center flex-grow px-4"
+              >
+                <h2 class="text-lg font-bold text-purple-700">
+                  {{ restaurant.name }}
+                </h2>
+                <p class="text-sm text-gray-600 mt-2">
+                  {{ restaurant.description }}
+                </p>
+              </mat-card-content>
+              <!-- Rating and Price Section -->
+              <div class="flex items-center justify-between mt-4">
+                <div class="flex items-center space-x-1">
+                  <ng-container
+                    *ngFor="let star of getStars(restaurant.rating)"
+                  >
+                    <span class="text-yellow-500 text-xl">★</span>
+                  </ng-container>
+                </div>
+                <p class="text-lg font-bold text-purple-700 p-2">
+                  Rs. {{ restaurant.priceRange }}
+                </p>
+              </div>
+            </mat-card>
+          </div>
+        </ng-container>
+        <ng-template #noData>
+          <p class="text-center text-gray-700">No restaurants available yet.</p>
+        </ng-template>
+      </div>
+    </mat-tab>
+
+    <!-- Events Tab -->
+    <mat-tab label="Events">
+      <div class="p-6">
+        <ng-container
+          *ngIf="filteredListings['Events'].length > 0; else noData"
+        >
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <mat-card
+              *ngFor="let event of filteredListings['Events']"
+              class="bg-white rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300"
+              [routerLink]="['/cities', selectedCity, 'Events', event.name]"
+            >
+              <!-- Image Section -->
+              <div class="flex-shrink-0 w-full h-100">
+                <img
+                  [src]="event.image"
+                  [alt]="event.name"
+                  class="w-full h-48 object-cover rounded-t-lg"
+                />
+              </div>
+              <!-- Content Section -->
+              <mat-card-content
+                class="flex flex-col justify-center flex-grow px-4"
+              >
+                <h2 class="text-lg font-bold text-purple-700">
+                  {{ event.name }}
+                </h2>
+                <p class="text-sm text-gray-600 mt-2">
+                  {{ event.description }}
+                </p>
+              </mat-card-content>
+              <!-- Contact Details Section -->
+              <div class="flex items-center justify-between mt-4">
+                <div class="flex items-center space-x-1">
+                  <ng-container *ngFor="let star of getStars(event.rating)">
+                    <span class="text-yellow-500 text-xl">★</span>
+                  </ng-container>
+                </div>
+                <p class="text-lg font-bold text-purple-700 p-2">
+                  Rs. {{ event.priceRange }}
+                </p>
+              </div>
+            </mat-card>
+          </div>
+        </ng-container>
+        <ng-template #noData>
+          <p class="text-center text-gray-700">No events available yet.</p>
+        </ng-template>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</div>

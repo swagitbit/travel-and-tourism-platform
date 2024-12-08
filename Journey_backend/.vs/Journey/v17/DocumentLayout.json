@@ -1,0 +1,255 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.net_projects\\Journey\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|d:\\.net_projects\\journey\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|d:\\.net_projects\\journey\\controllers\\reviewratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|solutionrelative:controllers\\reviewratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|d:\\.net_projects\\journey\\controllers\\listingsconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|solutionrelative:controllers\\listingsconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|d:\\.net_projects\\journey\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|solutionrelative:controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|d:\\.net_projects\\journey\\services\\listingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|solutionrelative:services\\listingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|d:\\.net_projects\\journey\\services\\reviewratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|solutionrelative:services\\reviewratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|d:\\.net_projects\\journey\\repositories\\listingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|solutionrelative:repositories\\listingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|d:\\.net_projects\\journey\\repositories\\ilistingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|solutionrelative:repositories\\ilistingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|d:\\.net_projects\\journey\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|solutionrelative:models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|d:\\.net_projects\\journey\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|d:\\.net_projects\\journey\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|solutionrelative:services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|d:\\.net_projects\\journey\\dtos\\bookingrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|solutionrelative:dtos\\bookingrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|d:\\.net_projects\\journey\\dtos\\userdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6347119C-73D0-44E0-B0B8-DCA357D0AE7B}|Journey.csproj|solutionrelative:dtos\\userdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 281,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReviewRatingsController.cs",
+              "DocumentMoniker": "D:\\.net_projects\\Journey\\Controllers\\ReviewRatingsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReviewRatingsController.cs",
+              "ToolTip": "D:\\.net_projects\\Journey\\Controllers\\ReviewRatingsController.cs",
+              "RelativeToolTip": "Controllers\\ReviewRatingsController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwBIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:57:19.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListingService.cs",
+              "DocumentMoniker": "D:\\.net_projects\\Journey\\Services\\ListingService.cs",
+              "RelativeDocumentMoniker": "Services\\ListingService.cs",
+              "ToolTip": "D:\\.net_projects\\Journey\\Services\\ListingService.cs",
+              "RelativeToolTip": "Services\\ListingService.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAcwHUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:06:45.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IListingRepository.cs",
+              "DocumentMoniker": "D:\\.net_projects\\Journey\\Repositories\\IListingRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IListingRepository.cs",
+              "ToolTip": "D:\\.net_projects\\Journey\\Repositories\\IListingRepository.cs",
+              "RelativeToolTip": "Repositories\\IListingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:04:45.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListingsConroller.cs",
+              "DocumentMoniker": "D:\\.net_projects\\Journey\\Controllers\\ListingsConroller.cs",
+              "RelativeDocumentMoniker": "Controllers\\ListingsConroller.cs",
+              "ToolTip": "D:\\.net_projects\\Journey\\Controllers\\ListingsConroller.cs",
+              "RelativeToolTip": "Controllers\\ListingsConroller.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAAwIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:31:01.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "D:\\.net_projects\\Journey\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookingsController.cs",
+              "ToolTip": "D:\\.net_projects\\Journey\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T20:31:15.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\.net_projects\\Journey\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "D:\\.net_projects\\Journey\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T19:55:07.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ListingRepository.cs",
+              "DocumentMoniker": "D:\\.net_projects\\Journey\\Repositories\\ListingRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ListingRepository.cs",
+              "ToolTip": "D:\\.net_projects\\Journey\\Repositories\\ListingRepository.cs",
+              "RelativeToolTip": "Repositories\\ListingRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:05:38.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReviewRatingService.cs",
+              "DocumentMoniker": "D:\\.net_projects\\Journey\\Services\\ReviewRatingService.cs",
+              "RelativeDocumentMoniker": "Services\\ReviewRatingService.cs",
+              "ToolTip": "D:\\.net_projects\\Journey\\Services\\ReviewRatingService.cs",
+              "RelativeToolTip": "Services\\ReviewRatingService.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAswHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:59:45.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookingRequestDto.cs",
+              "DocumentMoniker": "D:\\.net_projects\\Journey\\Dtos\\BookingRequestDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\BookingRequestDto.cs",
+              "ToolTip": "D:\\.net_projects\\Journey\\Dtos\\BookingRequestDto.cs",
+              "RelativeToolTip": "Dtos\\BookingRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T20:29:26.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "D:\\.net_projects\\Journey\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "Services\\BookingService.cs",
+              "ToolTip": "D:\\.net_projects\\Journey\\Services\\BookingService.cs",
+              "RelativeToolTip": "Services\\BookingService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T20:28:46.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\.net_projects\\Journey\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Models\\AppUser.cs",
+              "ToolTip": "D:\\.net_projects\\Journey\\Models\\AppUser.cs",
+              "RelativeToolTip": "Models\\AppUser.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T20:23:53.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserDetailDto.cs",
+              "DocumentMoniker": "D:\\.net_projects\\Journey\\Dtos\\UserDetailDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserDetailDto.cs",
+              "ToolTip": "D:\\.net_projects\\Journey\\Dtos\\UserDetailDto.cs",
+              "RelativeToolTip": "Dtos\\UserDetailDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T20:23:24.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\.net_projects\\Journey\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Models\\Booking.cs",
+              "ToolTip": "D:\\.net_projects\\Journey\\Models\\Booking.cs",
+              "RelativeToolTip": "Models\\Booking.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA+wBAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T20:21:22.186Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 119,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

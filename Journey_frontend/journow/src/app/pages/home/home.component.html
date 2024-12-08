@@ -1,0 +1,47 @@
+<div class="min-h-screen bg-purple-100">
+  <!-- Hero Section -->
+  <header class="text-center py-8 px-4 bg-purple-200">
+    <h1 class="text-3xl md:text-5xl font-bold text-purple-800">
+      Explore Beyond Boundaries,<br />
+      Travel Beyond Expectations
+    </h1>
+    <p class="text-purple-600 mt-2">
+      we don't just plan trips, we craft unforgettable adventures.
+    </p>
+    <button mat-raised-button color="primary" class="mt-4" routerLink="/cities">
+      Explore Cities
+    </button>
+  </header>
+
+  <!-- Carousel Section -->
+  <section class="py-8 px-4">
+    <div class="relative">
+      <!-- Carousel Wrapper -->
+      <div
+        class="flex overflow-x-scroll snap-x snap-mandatory space-x-6 scrollbar-hide"
+      >
+        <!-- City Cards -->
+        <div
+          *ngFor="let city of cityCards"
+          class="snap-start flex-none bg-white rounded-lg shadow-lg w-72"
+        >
+          <img
+            [src]="city.image"
+            [alt]="city.cityName"
+            class="w-full h-48 object-cover rounded-t-lg"
+          />
+          <div class="p-4">
+            <h3 class="text-lg font-semibold">{{ city.cityName }}</h3>
+            <p class="text-sm text-gray-600">{{ city.cityDescription }}</p>
+            <div class="flex items-center justify-between mt-2">
+              <span class="text-yellow-500">★★★★★</span>
+              <button mat-icon-button>
+                <mat-icon>bookmark</mat-icon>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

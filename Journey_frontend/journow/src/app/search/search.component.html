@@ -1,0 +1,47 @@
+<div class="container mx-auto p-4">
+  <h1 class="text-xl font-bold mb-4">Search Results</h1>
+  <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    <ng-container *ngIf="listings?.length; else noResults">
+      <mat-card *ngFor="let listing of listings" class="shadow-lg">
+        <mat-card-header>
+          <mat-card-title>{{ listing.title }}</mat-card-title>
+          <mat-card-subtitle>{{ listing.location }}</mat-card-subtitle>
+        </mat-card-header>
+        <img
+          mat-card-image
+          [src]="listing.imageUrl"
+          alt="{{ listing.title }}"
+        />
+        <mat-card-content>
+          <p>Price: ₹{{ listing.priceRange }}</p>
+          <p>Rating: {{ listing.rating }} ⭐</p>
+        </mat-card-content>
+      </mat-card>
+    </ng-container>
+    <ng-template #noResults>
+      <p class="text-center text-gray-500">
+        No listings found for your search criteria.
+      </p>
+    </ng-template>
+  </div>
+
+  <div class="flex justify-center mt-4">
+    <button
+      mat-raised-button
+      color="primary"
+      (click)="onPrevPage()"
+      [disabled]="currentPage <= 1"
+    >
+      Previous
+    </button>
+    <span class="mx-4">Page {{ currentPage }}</span>
+    <button
+      mat-raised-button
+      color="primary"
+      (click)="onNextPage()"
+      [disabled]="currentPage >= totalPages"
+    >
+      Next
+    </button>
+  </div>
+</div>

@@ -1,0 +1,69 @@
+<div class="container mx-auto px-4 py-8">
+  <!-- Title Section -->
+  <div class="text-center mb-8">
+    <h1 class="text-3xl font-bold text-gray-800">My Services</h1>
+    <p class="text-lg text-gray-500 mt-2">Manage your listed services here</p>
+  </div>
+
+  <!-- Listings Section -->
+  <div class="text-center pb-3">
+    <p *ngIf="listings.length === 0">No services found for your account.</p>
+    <p *ngIf="listings.length > 0">{{ listings.length }} listings available</p>
+  </div>
+
+  <!-- Listings Grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <!--<app-service-dashboard
+      (serviceAdded)="serviceAdded($event)"
+    ></app-service-dashboard>-->
+    <div
+      *ngFor="let service of listings"
+      class="bg-white rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300"
+    >
+      <!-- Service Image -->
+      <div class="w-full mb-4">
+        <img
+          [src]="service.image"
+          alt="{{ service.name }}"
+          class="w-full h-48 object-cover rounded-t-lg"
+        />
+      </div>
+
+      <!-- Service Details -->
+      <div class="p-4 text-center">
+        <!-- City Name -->
+        <h3 class="text-lg font-bold text-purple-700">{{ service.name }}</h3>
+
+        <!-- City Description -->
+        <p class="text-sm text-gray-600 mt-2">{{ service.description }}</p>
+
+        <!-- rating -->
+        <div class="flex items-center mt-4 space-x-1">
+          <ng-container *ngFor="let star of getStars(service.rating)">
+            <span class="text-yellow-500 text-xl">★</span>
+          </ng-container>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="flex justify-between mt-6 w-full">
+          <button
+            mat-raised-button
+            color="primary"
+            class="w-28 py-2 bg-blue-500 text-white rounded-md"
+            (click)="editService(service.listingId)"
+          >
+            Edit
+          </button>
+          <button
+            mat-raised-button
+            color="warn"
+            class="w-28 py-2 bg-red-500 text-white rounded-md"
+            (click)="deleteService(service.listingId)"
+          >
+            Delete
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,52 @@
+<section class="bg-purple-200 py-16" *ngIf="selectedListing">
+  <div class="container mx-auto">
+    <h1 class="text-3xl font-bold text-purple-700 mb-8">Booking</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Listing Details -->
+      <div class="bg-white rounded-lg shadow-md p-6">
+        <img [src]="selectedListing.image" class="w-full rounded-lg mb-4" />
+        <h2 class="text-xl font-bold mb-2">{{ selectedListing.name }}</h2>
+        <p class="text-gray-700">{{ selectedListing.description }}</p>
+        <div class="flex justify-center md:justify-start mt-1 text-yellow-400">
+          <span *ngFor="let star of getStars(selectedListing.rating)">
+            {{ star }}
+          </span>
+        </div>
+        <p class="text-2xl font-bold mt-4">
+          Rs. {{ selectedListing.priceRange }} per person
+        </p>
+      </div>
+
+      <!-- Booking Form -->
+      <div class="bg-white rounded-lg shadow-md p-6">
+        <h2 class="text-xl font-bold mb-4">Booking Details</h2>
+        <div class="flex items-center mb-4">
+          <span class="text-gray-700">Number of People:</span>
+          <button
+            (click)="decreasePeople()"
+            class="material-icons bg-gray-200 rounded-full px-2 py-1 mx-2"
+          >
+            remove
+          </button>
+          <span class="text-gray-700">{{ numberOfPeople }}</span>
+          <button
+            (click)="increasePeople()"
+            class="material-icons bg-gray-200 rounded-full px-2 py-1 mx-2"
+          >
+            add
+          </button>
+        </div>
+        <p class="text-2xl font-bold mb-4">
+          Total Amount: Rs. {{ totalAmount }}
+        </p>
+        <button
+          (click)="confirmBooking()"
+          class="bg-purple-700 text-white rounded-full px-6 py-2 font-bold hover:bg-purple-800"
+        >
+          Confirm Booking
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
